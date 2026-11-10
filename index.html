@@ -12,32 +12,55 @@
 
     <header class="bg-primary text-white py-3">
         <!-- Logo a sinistra, link nav a destra. Usa container + d-flex + justify-content-between -->
-        <div class="container d-flex justify-content-between align-items-center">
-            <h1 class="fs-3 m-0">EpiShop</h1>
-            <nav>
-
-                <a class="text-white text-decoration-none mx-2" href="#prodotti">Prodotti</a>
-
-                <a class="text-white text-decoration-none mx-2" href="#offerte">Offerte</a>
-
-                <a class="text-white text-decoration-none mx-2 d-none d-md-inline" href="#">Contatti</a>
-
-
-
-            </nav>
-        </div>
-
+    <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white h1" href="index.html">Epishop</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="#prodotti">Prodotti</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#offerte">Offerte</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Contatti</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
     </header>
 
-    <section id="offerte" class="bg-light py-5">
+    <section>
         <!-- Hero: titolo grande, sottotitolo, bottone CTA. Usa container + text-center + classi utility -->
-        <div class="container text-center">
-            <h2 class="fs-1 fw-bold mb-3">Saldi di primavera</h2>
-            <p class="fs-5 text-muted mb-4">Scopri le offerte sui prodotti in evidenza, finonal 50% di sconto.</p>
-            <button class="d-inline-block bg-primary py-2 px-4 rounded border-0"><a
-                    class=" text-white text-decoration-none" href="#prodotti">Vedi i prodotti</a></button>
-
-        </div>
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+  <div class="carousel-inner text-center">
+    <div class="carousel-item active bg-primary ">
+        <h2 class="fs-1 fw-bold mb-3 text-white">Saldi di primavera</h2>
+        <p class="fs-5 text-white mb-4">Scopri le offerte sui prodotti in evidenza, finonal 50% di sconto.</p>
+    </div>
+    <div class="carousel-item bg-success">
+        <h2 class="fs-1 fw-bold mb-3 text-white">Nuova collezione</h2>
+        <p class="fs-5 text-white mb-4">Scopri gli arrivi della settimana.</p>
+    </div>
+    <div class="carousel-item bg-dark">
+        <h2 class="fs-1 fw-bold mb-3 text-white">Spedizione gratis</h2>
+        <p class="fs-5 text-white mb-4">Sopra i 50€ su tutto il sito.</p>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
     </section>
 
     <main class="container my-4">
@@ -95,6 +118,38 @@
          </div>
     </footer>
 
+    <script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+			integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+			integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+			crossorigin="anonymous"
+		></script>
+
 </body>
 
 </html>
+
+ <!-- <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="fs-3 m-0">EpiShop</h1>
+            <nav>
+
+                <a class="text-white text-decoration-none mx-2" href="#prodotti">Prodotti</a>
+
+                <a class="text-white text-decoration-none mx-2" href="#offerte">Offerte</a>
+
+                <a class="text-white text-decoration-none mx-2 d-none d-md-inline" href="#">Contatti</a>
+
+            </nav>
+        </div>
+
+         <div class="container text-center">
+            <h2 class="fs-1 fw-bold mb-3">Saldi di primavera</h2>
+            <p class="fs-5 text-muted mb-4">Scopri le offerte sui prodotti in evidenza, finonal 50% di sconto.</p>
+            <button class="d-inline-block bg-primary py-2 px-4 rounded border-0"><a
+                    class=" text-white text-decoration-none" href="#prodotti">Vedi i prodotti</a></button>
+
+        </div> -->
