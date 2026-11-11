@@ -39,10 +39,13 @@
     <section>
         <!-- Hero: titolo grande, sottotitolo, bottone CTA. Usa container + text-center + classi utility -->
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2600">
-              <div class="carousel-indicators mb-1">
-                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <div class="carousel-indicators mb-1">
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner text-center">
                 <div class="carousel-item active  bg-primary">
@@ -71,108 +74,93 @@
         </div>
     </section>
 
-        <main class="container my-4">
-            <div class="row">
+    <main class="container my-4">
+        <div class="row">
 
-                <aside class="col-lg-3 d-none d-lg-block">
-                    <!-- Sidebar categorie. Visibile solo da lg in su (d-none d-lg-block) -->
-                    <div class="bg-light p-3 rounded border">
-                        <h3 class="fs-5 fw-bold mb-3">Categorie</h3>
-                        <p class="m-0 mb-2">Scarpe</p>
-                        <p class="m-0 mb-2">T-shirt</p>
-                        <p class="m-0 mb-2">Borse</p>
-                        <p class="m-0 mb-2">Accessori</p>
-                    </div>
-                </aside>
-<div class="card" style="width: 18rem;">
-  <img class="h-50 py-3 px-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReoGYnaOY_YrVrzmZxOYesgrzqLr-Xw4RU5IK7tBXU7w&s=10" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Sneaker Run</h5>
-    <p class="card-text text-muted">Scarpa leggera per la corsa, suola in gomma traspirante.</p>
-    <p class="text-black m-0 fw-bold">€89,00</p>
-    <a href="#" class="btn btn-primary w-100 mt-1">Dettagli</a>
-  </div>
-</div>
+            <aside class="col-lg-3 d-none d-lg-block">
+                <!-- Sidebar categorie. Visibile solo da lg in su (d-none d-lg-block) -->
+                <div class="bg-light p-3 rounded border">
+                    <h3 class="fs-5 fw-bold mb-3">Categorie</h3>
+                    <p class="m-0 mb-2">Scarpe</p>
+                    <p class="m-0 mb-2">T-shirt</p>
+                    <p class="m-0 mb-2">Borse</p>
+                    <p class="m-0 mb-2">Accessori</p>
+                </div>
+            </aside>
 
-<div class="card" style="width: 18rem;">
-  <img class="h-50 py-3 px-2" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQazA76xRJIR5SF3LFyLF0uru_Nbs7vfdfOo-3eNK3uVfTAt7gXC-NCA9ln_sef9nsygf264wrehyauJf8DMuLq5gzkb5TvZOXFxQ22A5LvRR6y_vcpvyEMb5KO9uAJLgXa74q7nWLH&usqp=CAc" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">T-shirt basic</h5>
-    <p class="card-text text-muted">Cotone biologico, taglio regolare, disponibile in 5 colori.</p>
-    <p class="text-black m-0 fw-bold">€19,00</p>
-    <a href="#" class="btn btn-primary w-100 mt-1">Dettagli</a>
-  </div>
-</div>
 
-<div class="card" style="width: 18rem;">
-  <img class="h-50 py-3 px-2" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQcp9fv1gOWBcC2Ov6ceokmxs-opCXk_e-Pyr3DmiVjN2U8PFQ5jaH5traGrNMzDsI5q6rb9kb92FFMSiREhXMLGinCnZmM3mimYwKc9T21_lUuXyj72IYkAAlT_iZKxq3Zk04iNUwU&usqp=CAc" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Borsa city</h5>
-    <p class="card-text text-muted">Tessuto resistente, tasca interna, cinghia regolabile.</p>
-    <p class="text-b m-0 fw-bold">€49,00</p>
-    <a href="#" class="btn btn-primary w-100 mt-1">Dettagli</a>
-  </div>
-</div>
 
-                <section id="prodotti" class="col-12 col-lg-9">
-                    <!-- Griglia prodotti responsive (1 / 2 / 3 / 4 per riga in base al breakpoint) -->
-                    <h2 class="fs-3 fw-bold mb-4 text-center text-md-start">Prodotti in evidenza</h2>
-                    <div class="row">
-                        <article class="col-12 col-sm-6 col-xl-4 mb-3">
-                            <div class="border rounded p-3 bg-white shadow-sm">
-                                <div class="mb-2 rounded" style="height: 160px;">
-                                    <img class="h-100 w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReoGYnaOY_YrVrzmZxOYesgrzqLr-Xw4RU5IK7tBXU7w&s=10" alt="">
-                                </div>
-                                <h3 class="fs-5 fw-bold m-0">Sneaker run</h3>
-                                <p class="text-muted">Scarpa leggera per la corsa, suola in gomma traspirante.</p>
-                                <p class="fw-bold m-0">€89,00</p>
-                                <a href="#" class="btn btn-primary w-100 mt-1">Dettagli</a>
-                            </div> 
-                        </article>
 
-                        <article class="col-12 col-sm-6 col-xl-4 mb-3">
-                            <div class="border rounded p-3 bg-white shadow-sm">
-                                <div class="mb-2 rounded" style="height: 160px;">
-                                    <img class="h-100 w-100" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQazA76xRJIR5SF3LFyLF0uru_Nbs7vfdfOo-3eNK3uVfTAt7gXC-NCA9ln_sef9nsygf264wrehyauJf8DMuLq5gzkb5TvZOXFxQ22A5LvRR6y_vcpvyEMb5KO9uAJLgXa74q7nWLH&usqp=CAc" alt="">
-                                </div>
-                                <h3 class="fs-5 fw-bold m-0">T-shirt basic</h3>
-                                <p class="text-muted">Cotone biologico, taglio regolare, disponibile in 5 colori.</p>
-                                <p class="text-muted m-0">€19,00</p>
+
+
+            <section id="prodotti" class="col-12 col-lg-9">
+                <!-- Griglia prodotti responsive (1 / 2 / 3 / 4 per riga in base al breakpoint) -->
+                <h2 class="fs-3 fw-bold mb-4 text-center text-md-start">Prodotti in evidenza</h2>
+                <div class="row">
+                    <article class="col-12 col-sm-6 col-xl-4 mb-3">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img class="h-50 py-3 px-2"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReoGYnaOY_YrVrzmZxOYesgrzqLr-Xw4RU5IK7tBXU7w&s=10"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sneaker Run</h5>
+                                <p class="card-text text-muted">Scarpa leggera per la corsa, suola in gomma traspirante.
+                                </p>
+                                <p class="text-black m-0 fw-bold">€89,00</p>
                                 <a href="#" class="btn btn-primary w-100 mt-1">Dettagli</a>
                             </div>
-                        </article>
+                        </div>
+                    </article>
 
-                        <article class="col-12 col-sm-6 col-xl-4 mb-3">
-                            <div class="border rounded p-3 bg-white shadow-sm">
-                                <div class="mb-2 rounded" style="height: 160px;">
-                                    <img class="h-100 w-100" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQcp9fv1gOWBcC2Ov6ceokmxs-opCXk_e-Pyr3DmiVjN2U8PFQ5jaH5traGrNMzDsI5q6rb9kb92FFMSiREhXMLGinCnZmM3mimYwKc9T21_lUuXyj72IYkAAlT_iZKxq3Zk04iNUwU&usqp=CAc" alt="">
-                                </div>
-                                <h3 class="fs-5 fw-bold m-0">Borsa city</h3>
-                                <p class="text-muted">Tessuto resistente, tasca interna, cinghia regolabile.</p>
-                                <p class="text-muted m-0">€49,00</p>
+                    <article class="col-12 col-sm-6 col-xl-4 mb-3">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img class="h-50 py-3 px-2"
+                                src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQazA76xRJIR5SF3LFyLF0uru_Nbs7vfdfOo-3eNK3uVfTAt7gXC-NCA9ln_sef9nsygf264wrehyauJf8DMuLq5gzkb5TvZOXFxQ22A5LvRR6y_vcpvyEMb5KO9uAJLgXa74q7nWLH&usqp=CAc"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">T-shirt basic</h5>
+                                <p class="card-text text-muted">Cotone biologico, taglio regolare, disponibile in 5
+                                    colori.</p>
+                                <p class="text-black m-0 fw-bold">€19,00</p>
                                 <a href="#" class="btn btn-primary w-100 mt-1">Dettagli</a>
                             </div>
-                        </article>
+                        </div>
+                    </article>
 
-                    </div>
-                </section>
+                    <article class="col-12 col-sm-6 col-xl-4 mb-3">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img class="h-50 py-3 px-2"
+                                src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQcp9fv1gOWBcC2Ov6ceokmxs-opCXk_e-Pyr3DmiVjN2U8PFQ5jaH5traGrNMzDsI5q6rb9kb92FFMSiREhXMLGinCnZmM3mimYwKc9T21_lUuXyj72IYkAAlT_iZKxq3Zk04iNUwU&usqp=CAc"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Borsa city</h5>
+                                <p class="card-text text-muted">Tessuto resistente, tasca interna, cinghia regolabile.
+                                </p>
+                                <p class="text-b m-0 fw-bold">€49,00</p>
+                                <a href="#" class="btn btn-primary w-100 mt-1">Dettagli</a>
+                            </div>
+                        </div>
+                    </article>
 
-            </div>
-        </main>
+                </div>
+            </section>
 
-        <footer class="bg-dark text-white py-4 mt-5">
-            <!-- Footer scuro centrato con copyright -->
-            <div class="container text-center">
-                <p class="m-0">© 2026 EpiShop - tutti i diritti riservati</p>
-            </div>
-        </footer>
+        </div>
+    </main>
 
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
-            integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
-            crossorigin="anonymous"></script>
+    <footer class="bg-dark text-white py-4 mt-5">
+        <!-- Footer scuro centrato con copyright -->
+        <div class="container text-center">
+            <p class="m-0">© 2026 EpiShop - tutti i diritti riservati</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
 
 </body>
 
